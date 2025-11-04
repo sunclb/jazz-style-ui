@@ -1,0 +1,506 @@
+[
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure19.wav",
+    "output_audio": "jazz/v1/adventure/adventure19.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure19.wav",
+    "output_audio": "jazz/v2/adventure/adventure19.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure19.wav",
+    "output_audio": "jazz/v3/adventure/adventure19.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure18.wav",
+    "output_audio": "jazz/v1/adventure/adventure18.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure18.wav",
+    "output_audio": "jazz/v2/adventure/adventure18.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure18.wav",
+    "output_audio": "jazz/v3/adventure/adventure18.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure24.wav",
+    "output_audio": "jazz/v1/adventure/adventure24.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure24.wav",
+    "output_audio": "jazz/v2/adventure/adventure24.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure24.wav",
+    "output_audio": "jazz/v3/adventure/adventure24.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure20.wav",
+    "output_audio": "jazz/v1/adventure/adventure20.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure20.wav",
+    "output_audio": "jazz/v2/adventure/adventure20.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure20.wav",
+    "output_audio": "jazz/v3/adventure/adventure20.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure9.wav",
+    "output_audio": "jazz/v1/adventure/adventure9.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure9.wav",
+    "output_audio": "jazz/v2/adventure/adventure9.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure9.wav",
+    "output_audio": "jazz/v3/adventure/adventure9.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure8.wav",
+    "output_audio": "jazz/v1/adventure/adventure8.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure8.wav",
+    "output_audio": "jazz/v2/adventure/adventure8.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure8.wav",
+    "output_audio": "jazz/v3/adventure/adventure8.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure21.wav",
+    "output_audio": "jazz/v1/adventure/adventure21.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure21.wav",
+    "output_audio": "jazz/v2/adventure/adventure21.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure21.wav",
+    "output_audio": "jazz/v3/adventure/adventure21.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure23.wav",
+    "output_audio": "jazz/v1/adventure/adventure23.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure23.wav",
+    "output_audio": "jazz/v2/adventure/adventure23.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure23.wav",
+    "output_audio": "jazz/v3/adventure/adventure23.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure22.wav",
+    "output_audio": "jazz/v1/adventure/adventure22.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure22.wav",
+    "output_audio": "jazz/v2/adventure/adventure22.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure22.wav",
+    "output_audio": "jazz/v3/adventure/adventure22.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure13.wav",
+    "output_audio": "jazz/v1/adventure/adventure13.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure13.wav",
+    "output_audio": "jazz/v2/adventure/adventure13.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure13.wav",
+    "output_audio": "jazz/v3/adventure/adventure13.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure6.wav",
+    "output_audio": "jazz/v1/adventure/adventure6.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure6.wav",
+    "output_audio": "jazz/v2/adventure/adventure6.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure6.wav",
+    "output_audio": "jazz/v3/adventure/adventure6.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure7.wav",
+    "output_audio": "jazz/v1/adventure/adventure7.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure7.wav",
+    "output_audio": "jazz/v2/adventure/adventure7.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure7.wav",
+    "output_audio": "jazz/v3/adventure/adventure7.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure12.wav",
+    "output_audio": "jazz/v1/adventure/adventure12.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure12.wav",
+    "output_audio": "jazz/v2/adventure/adventure12.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure12.wav",
+    "output_audio": "jazz/v3/adventure/adventure12.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure10.wav",
+    "output_audio": "jazz/v1/adventure/adventure10.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure10.wav",
+    "output_audio": "jazz/v2/adventure/adventure10.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure10.wav",
+    "output_audio": "jazz/v3/adventure/adventure10.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure5.wav",
+    "output_audio": "jazz/v1/adventure/adventure5.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure5.wav",
+    "output_audio": "jazz/v2/adventure/adventure5.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure5.wav",
+    "output_audio": "jazz/v3/adventure/adventure5.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure4.wav",
+    "output_audio": "jazz/v1/adventure/adventure4.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure4.wav",
+    "output_audio": "jazz/v2/adventure/adventure4.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure4.wav",
+    "output_audio": "jazz/v3/adventure/adventure4.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure11.wav",
+    "output_audio": "jazz/v1/adventure/adventure11.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure11.wav",
+    "output_audio": "jazz/v2/adventure/adventure11.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure11.wav",
+    "output_audio": "jazz/v3/adventure/adventure11.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure15.wav",
+    "output_audio": "jazz/v1/adventure/adventure15.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure15.wav",
+    "output_audio": "jazz/v2/adventure/adventure15.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure15.wav",
+    "output_audio": "jazz/v3/adventure/adventure15.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure1.wav",
+    "output_audio": "jazz/v1/adventure/adventure1.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure1.wav",
+    "output_audio": "jazz/v2/adventure/adventure1.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure1.wav",
+    "output_audio": "jazz/v3/adventure/adventure1.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure14.wav",
+    "output_audio": "jazz/v1/adventure/adventure14.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure14.wav",
+    "output_audio": "jazz/v2/adventure/adventure14.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure14.wav",
+    "output_audio": "jazz/v3/adventure/adventure14.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure16.wav",
+    "output_audio": "jazz/v1/adventure/adventure16.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure16.wav",
+    "output_audio": "jazz/v2/adventure/adventure16.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure16.wav",
+    "output_audio": "jazz/v3/adventure/adventure16.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure3.wav",
+    "output_audio": "jazz/v1/adventure/adventure3.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure3.wav",
+    "output_audio": "jazz/v2/adventure/adventure3.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure3.wav",
+    "output_audio": "jazz/v3/adventure/adventure3.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure2.wav",
+    "output_audio": "jazz/v1/adventure/adventure2.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure2.wav",
+    "output_audio": "jazz/v2/adventure/adventure2.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure2.wav",
+    "output_audio": "jazz/v3/adventure/adventure2.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure17.wav",
+    "output_audio": "jazz/v1/adventure/adventure17.wav",
+    "config_path": "configs/stable-diffusion/v1-inference.yaml",
+    "embedding_path": "logs/jazz_v1_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure17.wav",
+    "output_audio": "jazz/v2/adventure/adventure17.wav",
+    "config_path": "configs/stable-diffusion/v2-inference.yaml",
+    "embedding_path": "logs/jazz_v2_embeddings.pt"
+  },
+  {
+    "style": "jazz",
+    "input_audio": "audios/content/adventure/adventure17.wav",
+    "output_audio": "jazz/v3/adventure/adventure17.wav",
+    "config_path": "configs/stable-diffusion/v3-inference.yaml",
+    "embedding_path": "logs/jazz_v3_embeddings.pt"
+  }
+]
