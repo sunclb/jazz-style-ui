@@ -11,11 +11,14 @@ import {
 } from "./utils/fileListGenerator";
 
 function App() {
-  const [activeTab, setActiveTab] = useState<"inference" | "all">("inference");
+  const [activeTab, setActiveTab] = useState<"inference" | "all" | "demo">(
+    "inference"
+  );
   const [selectedFile, setSelectedFile] = useState<string>("");
   const [isLoading, setIsLoading] = useState(false);
   const [audioFiles, setAudioFiles] = useState<AudioFile[]>([]);
   const [allFiles, setAllFiles] = useState<AudioFile[]>([]);
+  const [demoFiles, setDemoFiles] = useState<AudioFile[]>([]);
 
   // 动态加载所有文件列表
   useEffect(() => {
@@ -24,6 +27,20 @@ function App() {
       setAllFiles(files);
     };
     loadFiles();
+  }, []);
+
+  // 动态加载demo文件列表
+  useEffect(() => {
+    const loadDemoFiles = async () => {
+      try {
+        const demoAudioFiles = await generateAudioFileList("/demo_config.json");
+        setDemoFiles(demoAudioFiles);
+      } catch (error) {
+        console.error("Failed to load demo config:", error);
+      }
+    };
+
+    loadDemoFiles();
   }, []);
 
   const handleFileSelect = (fileName: string) => {
@@ -76,6 +93,14 @@ function App() {
           <div className="all-tab">
             <h2>All Audio Files</h2>
             <AudioTable files={allFiles} />
+          </div>
+        )}
+
+        {activeTab === "demo" && (
+          <div className="demo-tab">
+            <h2>Demo Audio Files</h2>
+            <p>Showing {demoFiles.length} demo audio conversion examples</p>
+            <AudioTable files={demoFiles} />
           </div>
         )}
       </TabContainer>

@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
 
 interface TabContainerProps {
-  activeTab: "inference" | "all";
-  onTabChange: (tab: "inference" | "all") => void;
+  activeTab: "inference" | "all" | "demo";
+  onTabChange: (tab: "inference" | "all" | "demo") => void;
   children: ReactNode;
 }
 
@@ -25,6 +25,12 @@ export function TabContainer({
           onClick={() => onTabChange("all")}
         >
           All List
+        </button>
+        <button
+          className={`tab-button ${activeTab === "demo" ? "active" : ""}`}
+          onClick={() => onTabChange("demo")}
+        >
+          Demo
         </button>
       </div>
 

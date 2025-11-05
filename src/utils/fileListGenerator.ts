@@ -1,16 +1,26 @@
 import type { AudioFile } from "../components/AudioTable";
 
-// 从items_config.json动态生成文件列表
-export async function generateAudioFileList(): Promise<AudioFile[]> {
+interface ConfigItem {
+  input_audio: string;
+  output_audio: string;
+  style?: string;
+  config_path?: string;
+  embedding_path?: string;
+}
+
+// 从指定的配置文件动态生成文件列表
+export async function generateAudioFileList(
+  config_file_path: string = "/items_config.json"
+): Promise<AudioFile[]> {
   try {
-    // 从public目录加载items_config.json
-    const response = await fetch("/items_config.json");
+    // 从public目录加载指定的配置文件
+    const response = await fetch(config_file_path);
     const configItems = await response.json();
 
     // 使用Set来去重，基于input_audio路径
     const uniqueFiles = new Map<string, AudioFile>();
 
-    configItems.forEach((item: any) => {
+    configItems.forEach((item: ConfigItem) => {
       // 从input_audio路径中提取文件名和风格
       // input_audio格式: "audios/content/{style}/{filename}"
       const inputPath = item.input_audio;
@@ -31,8 +41,8 @@ export async function generateAudioFileList(): Promise<AudioFile[]> {
           style: style,
           contentPath: `audios/content/${fileKey}`, // 使用完整的input_audio路径
           baselinePath: `audios/jazz/v1/${fileKey}`,
-          v1Path: `audios/jazz/v2/${fileKey}`,
-          v2Path: `audios/jazz/v3/${fileKey}`,
+          v1Path: `audios/jazz/v3/${fileKey}`,
+          v2Path: `audios/jazz/v2/${fileKey}`,
         });
       }
     });
