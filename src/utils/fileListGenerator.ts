@@ -28,7 +28,8 @@ export async function generateAudioFileList(): Promise<AudioFile[]> {
         // 如果是新文件，创建基础记录
         uniqueFiles.set(fileKey, {
           name: filename,
-          contentPath: inputPath, // 使用完整的input_audio路径
+          style: style,
+          contentPath: `audios/content/${fileKey}`, // 使用完整的input_audio路径
           baselinePath: `audios/jazz/v1/${fileKey}`,
           v1Path: `audios/jazz/v2/${fileKey}`,
           v2Path: `audios/jazz/v3/${fileKey}`,
@@ -41,6 +42,23 @@ export async function generateAudioFileList(): Promise<AudioFile[]> {
     console.warn("生成音频文件列表时出错:", error);
     return [];
   }
+}
+
+// 获取按风格分组的文件信息
+export interface GroupedFiles {
+  [style: string]: AudioFile[];
+}
+
+export async function getGroupedFiles(): Promise<GroupedFiles> {
+  const audioFiles = await generateAudioFileList();
+  return audioFiles.reduce((groups, file) => {
+    const style = file.style || "Unknown";
+    if (!groups[style]) {
+      groups[style] = [];
+    }
+    groups[style].push(file);
+    return groups;
+  }, {} as GroupedFiles);
 }
 
 // 获取所有可用的文件名（用于文件选择器）

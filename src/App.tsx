@@ -66,7 +66,7 @@ function App() {
             {!isLoading && audioFiles.length > 0 && (
               <div className="results-section">
                 <h3>Comparison Results</h3>
-                <AudioTable files={audioFiles} />
+                <AudioTable files={audioFiles} grouped={false} />
               </div>
             )}
           </div>
