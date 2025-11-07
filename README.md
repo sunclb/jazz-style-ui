@@ -77,11 +77,24 @@ npm run build
 npm run preview
 ```
 
+### Download Data
+
+Download zip file from https://drive.google.com/file/d/1hX59ateqF1Y5a6aol3xa2KwaQ2xfqoDM/view?usp=drive_link
+unzip it under /public folder
+
 ## Configuration
 
 ### Audio File Configuration
 
-The project uses `public/items_config.json` file to configure audio file information, containing the following fields:
+The project uses `public/items_config.json` file to configure audio file information for All List tag, containing the following fields:
+
+- `style`: Audio style (currently "jazz")
+- `input_audio`: Original audio file path
+- `output_audio`: Converted audio file path
+- `config_path`: Model configuration file path
+- `embedding_path`: Embedding file path
+
+The project uses `public/demo_config.json` file to configure audio file information for Demo tag, containing the following fields:
 
 - `style`: Audio style (currently "jazz")
 - `input_audio`: Original audio file path
