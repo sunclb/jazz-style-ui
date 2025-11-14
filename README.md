@@ -105,8 +105,8 @@ The project uses `public/demo_config.json` file to configure audio file informat
 ### Supported Model Versions
 
 - **v1**: Uses `configs/stable-diffusion/v1-inference.yaml`
-- **v2**: Uses `configs/stable-diffusion/v2-inference.yaml`
-- **v3**: Uses `configs/stable-diffusion/v3-inference.yaml`
+- **v2**: Uses `configs/stable-diffusion/v3-inference.yaml`
+- **v3**: Uses `configs/stable-diffusion/v2-inference.yaml`
 
 ## Usage Instructions
 
